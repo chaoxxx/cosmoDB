@@ -3,7 +3,7 @@ package fun.cosmo;
 import java.io.File;
 import java.io.IOException;
 
-public class SimpleDb {
+public class CosmoDb {
     public static void main(String args[])
             throws DbException, TransactionAbortedException, IOException {
         // convert a file
