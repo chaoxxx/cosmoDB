@@ -11,8 +11,8 @@ import org.slf4j.LoggerFactory;
 import java.io.IOException;
 
 
-public class DummyConvertTestCase {
-    private static final Logger LOGGER = LoggerFactory.getLogger(DummyConvertTestCase.class);
+public class CosmoDbTestCase {
+    private static final Logger LOGGER = LoggerFactory.getLogger(CosmoDbTestCase.class);
     private int index = 1;
 
     @Test
