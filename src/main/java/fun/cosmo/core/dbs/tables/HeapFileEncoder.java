@@ -1,7 +1,7 @@
-package fun.cosmo.core;
+package fun.cosmo.core.dbs.tables;
 
 import fun.cosmo.util.Utility;
-import fun.cosmo.core.field.Type;
+import fun.cosmo.core.dbs.tables.tuples.field.Type;
 
 import java.io.*;
 import java.util.ArrayList;

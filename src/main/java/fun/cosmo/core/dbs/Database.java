@@ -1,7 +1,7 @@
-package fun.cosmo;
+package fun.cosmo.core.dbs;
 
-import fun.cosmo.core.BufferPool;
-import fun.cosmo.core.Catalog;
+import fun.cosmo.core.dbs.tables.BufferPool;
+import fun.cosmo.core.dbs.tables.Catalog;
 import fun.cosmo.log.LogFile;
 
 import java.io.*;

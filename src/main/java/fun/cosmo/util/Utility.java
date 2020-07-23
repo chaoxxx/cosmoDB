@@ -1,14 +1,14 @@
 package fun.cosmo.util;
 
-import fun.cosmo.Database;
-import fun.cosmo.core.HeapFile;
-import fun.cosmo.core.HeapPage;
-import fun.cosmo.core.HeapPageId;
-import fun.cosmo.core.RecordId;
-import fun.cosmo.core.field.Tuple;
-import fun.cosmo.core.field.TupleDesc;
-import fun.cosmo.core.field.IntField;
-import fun.cosmo.core.field.Type;
+import fun.cosmo.core.dbs.Database;
+import fun.cosmo.core.dbs.tables.HeapFile;
+import fun.cosmo.core.dbs.tables.HeapPage;
+import fun.cosmo.core.dbs.tables.HeapPageId;
+import fun.cosmo.core.dbs.tables.RecordId;
+import fun.cosmo.core.dbs.tables.tuples.Tuple;
+import fun.cosmo.core.dbs.tables.tuples.TupleDesc;
+import fun.cosmo.core.dbs.tables.tuples.field.IntField;
+import fun.cosmo.core.dbs.tables.tuples.field.Type;
 
 import java.io.*;
 import java.util.ArrayList;

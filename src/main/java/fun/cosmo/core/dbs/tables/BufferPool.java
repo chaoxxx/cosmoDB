@@ -1,7 +1,7 @@
-package fun.cosmo.core;
+package fun.cosmo.core.dbs.tables;
 
-import fun.cosmo.*;
-import fun.cosmo.core.field.Tuple;
+import fun.cosmo.core.dbs.Database;
+import fun.cosmo.core.dbs.tables.tuples.Tuple;
 import fun.cosmo.exception.DbException;
 import fun.cosmo.security.Permissions;
 import fun.cosmo.transaction.TransactionAbortedException;

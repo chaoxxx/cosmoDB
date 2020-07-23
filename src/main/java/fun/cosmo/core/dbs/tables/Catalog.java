@@ -1,7 +1,7 @@
-package fun.cosmo.core;
+package fun.cosmo.core.dbs.tables;
 
-import fun.cosmo.core.field.TupleDesc;
-import fun.cosmo.core.field.Type;
+import fun.cosmo.core.dbs.tables.tuples.TupleDesc;
+import fun.cosmo.core.dbs.tables.tuples.field.Type;
 
 import java.io.BufferedReader;
 import java.io.File;

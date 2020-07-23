@@ -1,8 +1,4 @@
-package fun.cosmo.core.field;
-
-import fun.cosmo.core.field.Field;
-import fun.cosmo.core.field.IntField;
-import fun.cosmo.core.field.StringField;
+package fun.cosmo.core.dbs.tables.tuples.field;
 
 import java.text.ParseException;
 import java.io.*;

@@ -1,11 +1,11 @@
 
 package fun.cosmo.log;
 
-import fun.cosmo.Database;
+import fun.cosmo.core.dbs.Database;
 import fun.cosmo.debug.Debug;
 import fun.cosmo.transaction.TransactionId;
-import fun.cosmo.core.Page;
-import fun.cosmo.core.PageId;
+import fun.cosmo.core.dbs.tables.Page;
+import fun.cosmo.core.dbs.tables.PageId;
 
 import java.io.*;
 import java.util.*;

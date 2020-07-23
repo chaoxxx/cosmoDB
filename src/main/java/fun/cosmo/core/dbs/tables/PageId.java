@@ -1,6 +1,4 @@
-package fun.cosmo.core;
-
-import fun.cosmo.core.BufferPool;
+package fun.cosmo.core.dbs.tables;
 
 import java.io.Serializable;
 

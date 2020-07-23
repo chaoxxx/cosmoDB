@@ -1,8 +1,8 @@
-package fun.cosmo.core;
+package fun.cosmo.core.dbs.tables;
 
 import fun.cosmo.exception.DbException;
 import fun.cosmo.transaction.TransactionAbortedException;
-import fun.cosmo.core.field.Tuple;
+import fun.cosmo.core.dbs.tables.tuples.Tuple;
 
 import java.io.Serializable;
 import java.util.*;

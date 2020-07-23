@@ -1,8 +1,7 @@
 package fun.cosmo.query;
 
-import fun.cosmo.core.field.Tuple;
-import fun.cosmo.core.field.TupleDesc;
-import fun.cosmo.query.DbIterator;
+import fun.cosmo.core.dbs.tables.tuples.Tuple;
+import fun.cosmo.core.dbs.tables.tuples.TupleDesc;
 
 import java.util.*;
 

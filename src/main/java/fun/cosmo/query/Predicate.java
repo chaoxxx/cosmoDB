@@ -1,7 +1,7 @@
 package fun.cosmo.query;
 
-import fun.cosmo.core.field.Tuple;
-import fun.cosmo.core.field.Field;
+import fun.cosmo.core.dbs.tables.tuples.Tuple;
+import fun.cosmo.core.dbs.tables.tuples.field.Field;
 
 import java.io.Serializable;
 

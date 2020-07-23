@@ -1,4 +1,6 @@
-package fun.cosmo.core.field;
+package fun.cosmo.core.dbs.tables.tuples;
+
+import fun.cosmo.core.dbs.tables.tuples.field.Type;
 
 import java.io.Serializable;
 import java.util.*;

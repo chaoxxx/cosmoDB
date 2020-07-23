@@ -1,4 +1,4 @@
-package fun.cosmo.core;
+package fun.cosmo.core.dbs.tables;
 
 /**
  * Unique identifier for HeapPage objects.

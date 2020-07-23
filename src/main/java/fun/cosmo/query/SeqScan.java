@@ -1,13 +1,13 @@
 package fun.cosmo.query;
 
-import fun.cosmo.Database;
+import fun.cosmo.core.dbs.Database;
 import fun.cosmo.exception.DbException;
 import fun.cosmo.transaction.TransactionAbortedException;
 import fun.cosmo.transaction.TransactionId;
-import fun.cosmo.core.DbFileIterator;
-import fun.cosmo.core.field.Tuple;
-import fun.cosmo.core.field.TupleDesc;
-import fun.cosmo.core.field.Type;
+import fun.cosmo.core.dbs.tables.DbFileIterator;
+import fun.cosmo.core.dbs.tables.tuples.Tuple;
+import fun.cosmo.core.dbs.tables.tuples.TupleDesc;
+import fun.cosmo.core.dbs.tables.tuples.field.Type;
 
 import java.util.*;
 

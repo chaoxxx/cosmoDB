@@ -1,11 +1,11 @@
 
-package fun.cosmo.core;
+package fun.cosmo.core.dbs.tables;
 
 import fun.cosmo.exception.DbException;
 import fun.cosmo.transaction.TransactionAbortedException;
 import fun.cosmo.transaction.TransactionId;
-import fun.cosmo.core.field.Tuple;
-import fun.cosmo.core.field.TupleDesc;
+import fun.cosmo.core.dbs.tables.tuples.Tuple;
+import fun.cosmo.core.dbs.tables.tuples.TupleDesc;
 
 import java.util.*;
 import java.io.*;

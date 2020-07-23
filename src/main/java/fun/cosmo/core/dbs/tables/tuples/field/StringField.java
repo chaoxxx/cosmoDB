@@ -1,4 +1,4 @@
-package fun.cosmo.core.field;
+package fun.cosmo.core.dbs.tables.tuples.field;
 
 import fun.cosmo.query.Predicate;
 
