@@ -2,6 +2,8 @@ package fun.cosmo;
 
 
 
+import fun.cosmo.exception.DbException;
+import fun.cosmo.transaction.TransactionAbortedException;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

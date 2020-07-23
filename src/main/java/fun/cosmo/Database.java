@@ -1,5 +1,9 @@
 package fun.cosmo;
 
+import fun.cosmo.core.BufferPool;
+import fun.cosmo.core.Catalog;
+import fun.cosmo.log.LogFile;
+
 import java.io.*;
 
 /** Database is a class that initializes several static
@@ -13,7 +17,7 @@ import java.io.*;
 public class Database {
 	private static Database _instance = new Database();
     private final Catalog _catalog;
-    private BufferPool _bufferpool; 
+    private BufferPool _bufferpool;
 
     private final static String LOGFILENAME = "log";
     private LogFile _logfile;
